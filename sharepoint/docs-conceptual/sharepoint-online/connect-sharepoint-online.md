@@ -40,6 +40,10 @@ To open the SharePoint Online Management Shell command prompt, from the **Start*
 > [!VIDEO https://www.youtube.com/embed/TMzHAWEQjlk]
 
 > [!NOTE]
+> To get started using PowerShell to manage SharePoint Online, you need to install the SharePoint Online Management Shell and connect to SharePoint Online.
+ 
+1) officially, we support PowerShell 5
+2) To continue using PowerShell 7, use the -UseWindowsPowerShell flag. Note that this may cause compatibility issues, and some features might not function as expected
 > In order to run SharePoint Online PowerShell commands in a Windows PowerShell 7 console, you must import the SharePoint module using the -UseWindowsPowerShell parameter.
 ```powershell
 Import-Module Microsoft.Online.SharePoint.PowerShell -UseWindowsPowerShell
